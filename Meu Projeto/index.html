@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="login.js" defer></script>
+    <title>Tela de Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-container">
+            <h1>Login</h1>
+            <form id="loginForm" onsubmit="validateForm(event)">
+                <div class="input">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div id="error-message" class="error-message"></div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div class="imagem-container">
+            <img src="./imagem.jpg" alt="imagem" class="background-image">
+        </div>
+    </div>
+</body>
+
+</html>
