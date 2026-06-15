@@ -1,0 +1,4 @@
+# Configuração do Netlify para a Ys Automóveis (site estático, sem build)
+[build]
+  publish = "."
+  command = ""
