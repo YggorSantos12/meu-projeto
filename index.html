@@ -36,6 +36,42 @@
             <p class="hero-sub">Os melhores carros, selecionados com cuidado para você. Conheça nosso showroom.</p>
             <a href="#estoque" class="btn-primary">Ver carros <i class="fa-solid fa-arrow-down"></i></a>
         </div>
+
+        <!-- Animação do carro -->
+        <div class="hero-animation">
+            <div class="speed-lines">
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="car-runner">
+                <svg class="car-svg" viewBox="0 0 220 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <!-- facho do farol -->
+                    <polygon class="headlight-beam" points="205,48 220,38 220,62 205,58" />
+                    <!-- carroceria -->
+                    <path class="car-body"
+                          d="M10,62 L18,62 C20,50 30,46 42,46 L70,46 C80,36 96,30 118,30
+                             C140,30 156,38 166,46 L190,48 C200,49 206,54 206,62 L200,62" />
+                    <!-- teto / janelas -->
+                    <path class="car-window"
+                          d="M74,46 C84,38 96,34 112,34 L132,34 C146,35 156,40 162,46 Z" />
+                    <!-- farol -->
+                    <circle class="headlight" cx="201" cy="55" r="3" />
+                    <!-- rodas -->
+                    <g class="wheel">
+                        <circle class="tire" cx="58" cy="64" r="15" />
+                        <circle class="rim" cx="58" cy="64" r="6" />
+                        <line class="spoke" x1="58" y1="52" x2="58" y2="76" />
+                        <line class="spoke" x1="46" y1="64" x2="70" y2="64" />
+                    </g>
+                    <g class="wheel">
+                        <circle class="tire" cx="158" cy="64" r="15" />
+                        <circle class="rim" cx="158" cy="64" r="6" />
+                        <line class="spoke" x1="158" y1="52" x2="158" y2="76" />
+                        <line class="spoke" x1="146" y1="64" x2="170" y2="64" />
+                    </g>
+                </svg>
+            </div>
+            <div class="road"></div>
+        </div>
     </section>
 
     <!-- Estoque -->
